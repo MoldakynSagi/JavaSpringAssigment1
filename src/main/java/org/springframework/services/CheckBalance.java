@@ -1,0 +1,1 @@
+package org.springframework.services;import org.springframework.User;import org.springframework.services.BankService;public class CheckBalance implements BankService {    @Override    public void makeService(User user) {        System.out.println("CHECK BALANCE");        System.out.println("Your balance: " + user.getBalance());    }}

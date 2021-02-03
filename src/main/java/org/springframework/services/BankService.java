@@ -1,0 +1,1 @@
+package org.springframework.services;import org.springframework.User;public interface BankService {   public void makeService(User user);}
